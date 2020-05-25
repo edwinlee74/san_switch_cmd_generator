@@ -1,0 +1,10 @@
+C:\Users\hyde6\Dropbox\devspace\project\generate_sw_cmd\generate_sw_cmd\generate_sw_cmd\bin\Debug\generate_sw_cmd.exe.config
+C:\Users\hyde6\Dropbox\devspace\project\generate_sw_cmd\generate_sw_cmd\generate_sw_cmd\bin\Debug\generate_sw_cmd.exe
+C:\Users\hyde6\Dropbox\devspace\project\generate_sw_cmd\generate_sw_cmd\generate_sw_cmd\bin\Debug\generate_sw_cmd.pdb
+C:\Users\hyde6\Dropbox\devspace\project\generate_sw_cmd\generate_sw_cmd\generate_sw_cmd\obj\Debug\generate_sw_cmd.csprojAssemblyReference.cache
+C:\Users\hyde6\Dropbox\devspace\project\generate_sw_cmd\generate_sw_cmd\generate_sw_cmd\obj\Debug\generate_sw_cmd.Form1.resources
+C:\Users\hyde6\Dropbox\devspace\project\generate_sw_cmd\generate_sw_cmd\generate_sw_cmd\obj\Debug\generate_sw_cmd.Properties.Resources.resources
+C:\Users\hyde6\Dropbox\devspace\project\generate_sw_cmd\generate_sw_cmd\generate_sw_cmd\obj\Debug\generate_sw_cmd.csproj.GenerateResource.cache
+C:\Users\hyde6\Dropbox\devspace\project\generate_sw_cmd\generate_sw_cmd\generate_sw_cmd\obj\Debug\generate_sw_cmd.csproj.CoreCompileInputs.cache
+C:\Users\hyde6\Dropbox\devspace\project\generate_sw_cmd\generate_sw_cmd\generate_sw_cmd\obj\Debug\generate_sw_cmd.exe
+C:\Users\hyde6\Dropbox\devspace\project\generate_sw_cmd\generate_sw_cmd\generate_sw_cmd\obj\Debug\generate_sw_cmd.pdb

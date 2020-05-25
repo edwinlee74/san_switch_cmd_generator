@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="generate_sw_cmd.exe" version="1.0.0.3" publicKeyToken="ea13f8baa5ace418" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="generate_sw_cmd" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="generate_sw_cmd.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+          若希望變更 Windows 使用者帳戶控制層級，
+          請用下列其中一項取代 requestedExecutionLevel 節點。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         若希望利用檔案及登錄模擬，提供回溯相容性，
+         則請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="generate_sw_cmd.exe" size="22496">
+      <assemblyIdentity name="generate_sw_cmd" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/XxoViBG+szhofRQWgLNCuw+2afAwTT6JjicTWQ3reY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="generate_sw_cmd.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-3ISN4Q18\hyde6" issuerKeyHash="f91dfebad9443657d9fecc2a6d13efeda826c332" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3/5+LnoZySlYug98yMTrX2FhurDNy4p8mna+AYXQjPs=</DigestValue></Reference></SignedInfo><SignatureValue>mM/jj9bfPB9IGKrnEV46sj2Gpu/kPR0LSMNFClSMO8x7wfEF5dVICbmjPurbzBU2crd/BwX1Ts9Ir3dQYU26abDNAIhZmC0ozlVMuaSpQ78pRAnF5CjfKmekWhsmn0Q2bIlLhhivAXS8rPiqRa8WT02lQw2cUUfzHGOhNUT6uPE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wOiZZNLOHCXSrzWTNTCkdBqSUGe7fZA8wESI0IBbhzYkYU/eQmvgNR1coBWTnPQg4HpxgK+TQVF/MH4oVefiT6vlTjS0WIzhMqZzz33pMmIMT9OhEKJBndVbq/huBxqdmuxsEPePLol7pKmRI39LswtfvdNzW0bCO65ZwFBIqpU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fb8cd08501be769a7c8acbcdb0ba61615febc4c87c0fba5829c9197a2e7efedf" Description="" Url=""><as:assemblyIdentity name="generate_sw_cmd.exe" version="1.0.0.3" publicKeyToken="ea13f8baa5ace418" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-3ISN4Q18\hyde6</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WQ0DJLDYyvCPqIhDMiR6N1OqG0nHhK1poydRMiqwGTM=</DigestValue></Reference></SignedInfo><SignatureValue>LrUYRNw/SLAEUz3fugIB/NVhgCBZlf64sZ1BZTZfauA9cCOMOkt33dVh52wc+Xo8B3QK3vF0b3ufKyBn/wo1227q41dJbcxZeW6MmeztBQ5DfOMGZUSiMGSSuI7zMf7b75VaS2dvj9nHnv0kz3IfwTkJSJnvefxaGYeWijlLyjQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wOiZZNLOHCXSrzWTNTCkdBqSUGe7fZA8wESI0IBbhzYkYU/eQmvgNR1coBWTnPQg4HpxgK+TQVF/MH4oVefiT6vlTjS0WIzhMqZzz33pMmIMT9OhEKJBndVbq/huBxqdmuxsEPePLol7pKmRI39LswtfvdNzW0bCO65ZwFBIqpU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQbQ1yjkcVr6hL1WCdy7vLZjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQAzAEkAUwBOADQAUQAxADgAXABoAHkAZABlADYwHhcNMjAwNTExMDMzMDQwWhcNMjEwNTExMDkzMDQwWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQAzAEkAUwBOADQAUQAxADgAXABoAHkAZABlADYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMDomWTSzhwl0q81kzUwpHQaklBnu32QPMBEiNCAW4c2JGFP3kJr4DUdXKAVk5z0IOB6cYCvk0FRfzB+KFXn4k+r5U40tFiM4TKmc8996TJiDE/ToRCiQZ3VW6v4bgcanZrsbBD3jy6Je6SpkSN/S7MLX73Tc1tGwjuuWcBQSKqVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAG7Nxhd0YaNoPsWifwiEVbAk2SoNVepxKH3aho+mOJxdl+shUFlgdHHATpvrpcXZyKXvHWjhIIwe4k8jdb/XUcrPooMTMnUGD8xr+ZqSw6PwavAZ4+avx1mGV6x0tld61rhJGp8/FycO4fwHDTiJQMO3etMIHLPDOBpWiS803R70=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
